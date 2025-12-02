@@ -1,0 +1,63 @@
+# -----------------------
+# Python
+# -----------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.pickle
+
+# Virtual environments
+venv/
+env/
+.env/
+
+# -----------------------
+# PyTorch / TensorFlow / ML artifacts
+# -----------------------
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.tflite
+*.onnx
+*.log
+
+# Training outputs / results
+runs/
+results/
+checkpoints/
+logs/
+*.csv
+
+# -----------------------
+# MuJoCo / simulation
+# -----------------------
+mjkey.txt        # MuJoCo license key
+*.mjb
+*.mjp
+*.stl
+*.obj
+*.dae
+*.xml~           # backups
+
+# -----------------------
+# Jupyter / Notebook
+# -----------------------
+.ipynb_checkpoints/
+
+# -----------------------
+# System files
+# -----------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# -----------------------
+# IDE / Editor
+# -----------------------
+.vscode/
+.idea/
+*.iml
